@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T16:44:58.084Z" agent="5.0 (Windows)" etag="Fyi_9UHTqCboZBlHMoGX" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T16:48:29.104Z" agent="5.0 (Windows)" etag="SQRt4NKlaU7mkVpeJxrE" version="13.10.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="695" dy="-513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -217,7 +217,7 @@
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-81" value="Id&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Int(P)" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#FFFF00;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="26" width="160" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="I1Ia4qXN9JXuArRHxtSp-82" value="IdOrder&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
+        <mxCell id="I1Ia4qXN9JXuArRHxtSp-82" value="Idorder&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="50" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-83" value="Id_payment_method&amp;nbsp; &amp;nbsp; Int&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=#4D9900;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
@@ -247,10 +247,10 @@
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-91" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="I1Ia4qXN9JXuArRHxtSp-87" vertex="1">
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I1Ia4qXN9JXuArRHxtSp-92" value="Method" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="I1Ia4qXN9JXuArRHxtSp-91" vertex="1">
+        <mxCell id="I1Ia4qXN9JXuArRHxtSp-92" value="method" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="I1Ia4qXN9JXuArRHxtSp-91" vertex="1">
           <mxGeometry width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I1Ia4qXN9JXuArRHxtSp-93" value="Int" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="I1Ia4qXN9JXuArRHxtSp-91" vertex="1">
+        <mxCell id="I1Ia4qXN9JXuArRHxtSp-93" value="text" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="I1Ia4qXN9JXuArRHxtSp-91" vertex="1">
           <mxGeometry x="130" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="I1Ia4qXN9JXuArRHxtSp-54" target="I1Ia4qXN9JXuArRHxtSp-82" edge="1">
