@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T16:44:15.808Z" agent="5.0 (Windows)" etag="x6FdMSqrKKf80pnwKKtx" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T16:44:58.084Z" agent="5.0 (Windows)" etag="Fyi_9UHTqCboZBlHMoGX" version="13.10.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="695" dy="-513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -223,7 +223,7 @@
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-83" value="Id_payment_method&amp;nbsp; &amp;nbsp; Int&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=#4D9900;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="70" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="I1Ia4qXN9JXuArRHxtSp-84" value="IdAddress&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;text&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
+        <mxCell id="I1Ia4qXN9JXuArRHxtSp-84" value="IdAddress&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="90" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-85" value="Quantity&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
