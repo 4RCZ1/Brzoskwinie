@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T16:41:40.758Z" agent="5.0 (Windows)" etag="hZXMTsMUZ0OF0F2G1G-p" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T16:44:15.808Z" agent="5.0 (Windows)" etag="x6FdMSqrKKf80pnwKKtx" version="13.10.1" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="579" dy="-611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="695" dy="-513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -220,16 +220,16 @@
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-82" value="IdOrder&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="50" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="I1Ia4qXN9JXuArRHxtSp-83" value="IdPaymentMethod&amp;nbsp; &amp;nbsp; Int&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=#4D9900;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
+        <mxCell id="I1Ia4qXN9JXuArRHxtSp-83" value="Id_payment_method&amp;nbsp; &amp;nbsp; Int&amp;nbsp; &amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=#4D9900;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="70" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-84" value="IdAddress&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;text&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="90" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="I1Ia4qXN9JXuArRHxtSp-85" value="Quantity&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
+        <mxCell id="I1Ia4qXN9JXuArRHxtSp-85" value="Quantity&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Int" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="110" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="I1Ia4qXN9JXuArRHxtSp-86" value="IdPickUpAddress&amp;nbsp; &amp;nbsp; &amp;nbsp; Int" style="text;html=1;strokeColor=none;fillColor=#00FFFF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
+        <mxCell id="I1Ia4qXN9JXuArRHxtSp-86" value="Id_pick_up_address&amp;nbsp;&amp;nbsp; Int" style="text;html=1;strokeColor=none;fillColor=#00FFFF;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="I1Ia4qXN9JXuArRHxtSp-80" vertex="1">
           <mxGeometry y="130" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I1Ia4qXN9JXuArRHxtSp-87" value="PaymentMethod" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#4D9900;" parent="1" vertex="1">
