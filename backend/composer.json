@@ -1,0 +1,24 @@
+{
+    "name": "igormaculewicz/backend",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "igor.maculewicz",
+            "email": "igor.maculewicz@assecods.pl",
+            "name": "marcin.alchimowicz",
+            "email": "marcinowicz1@gmail.com",
+            "name": "marta.dąbrowska",
+            "email": "dabrowskam2003@gmail.com",
+            "name": "mateusz.kupś",
+            "email": "Mateusz@kups-it.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}
