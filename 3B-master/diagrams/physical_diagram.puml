@@ -1,0 +1,112 @@
+@startuml
+
+entity user {
+  * id
+  --
+  * username
+  * password
+  * last_login
+  * created_at
+}
+
+entity user_contact_data {
+  * id
+  --
+  * user_id
+  * email
+  * phone_number
+  * street_name
+  * street_number
+  * flat_number
+  * city
+  * province
+  * postal_code
+  * country
+}
+
+entity product {
+  * id
+  --
+  * name
+  * catalog_number
+  * price
+  * quantity
+  * category_id
+  * created_at
+}
+
+entity product_category{
+  * id: serial
+  --
+  * <FK>parent_id: unsigned bigint
+  * name: text(32)
+}
+
+entity shop_contact_data{
+  *id: serial
+  --
+  * active: bool
+  * email: text(64)
+  * phone_number: text(12)
+  * street_name: text
+  * street_number: smallint
+  * flat_number: smallint
+  * city: text
+  * province: text
+  * postal_code: text(10)
+  * created_at: timestamp
+}
+
+entity system_settings{
+  * id
+  --
+  * key
+  * value
+}
+
+entity shopping_cart {
+  * id
+  --
+  * user_id
+}
+
+entity shopping_cart_product{
+  * id
+  --
+  product_id
+  shopping_cart_id
+  quantity
+  created_at
+}
+
+entity transaction{
+  * id
+  --
+  * shopping_cart_id
+  * transaction_details_id
+  * payment_type
+  * payment_reference
+  * created_at
+}
+
+entity transaction_details {
+  * id
+  --
+  * first_name
+  * last_name
+  * email
+  * credit_card_number
+  * finalized_at
+  * created_at
+}
+
+user ||..|| shopping_cart
+product ||..|{ product_category
+product_category ||..|{ product_category
+shopping_cart ||..|| transaction
+transaction ||..|| transaction_details
+user ||..|{ user_contact_data
+shopping_cart ||..|{ shopping_cart_product
+product ||..|{ shopping_cart_product
+
+@enduml
