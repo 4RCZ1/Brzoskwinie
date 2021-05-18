@@ -6,10 +6,10 @@ namespace App\Product\Controller;
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\Product\Model\ProductRequest;
-use App\Product\Service\UserService;
+use App\Product\Service\ProductService;
 
 /**
- * @Controller(path="/user")
+ * @Controller(path="/product")
  */
 class ProductController {
     /**
@@ -19,55 +19,53 @@ class ProductController {
     private $productService;
 
     /**
-     * UserController constructor.
+     * ProductController constructor.
      */
     public function __construct() {
-        $this->userService = new UserService();
+        $this->productService = new ProductService();
     }
 
 
     /**
      * @Action(method="GET")
      */
-    public function getUsers() {
-        echo "kurwaJebana";
+    public function getProducts() {
         $serializer = JsonSerializer::getInstance();
-        $serializedEntity = $serializer->serialize($this->userService->getUsers(), "json");
+        $serializedEntity = $serializer->serialize($this->productService->getProducts(), "json");
         echo $serializedEntity;
     }
 
     /**
      * @Action(method="POST")
      */
-    public function addUser() {
+    public function addProduct() {
         /** @var ProductRequest $requestBody */
         $requestBody = RestBodyReader::readBody(ProductRequest::class);
 
-        $user = $this->userService->addUser($requestBody);
+        $product = $this->productService->addProduct($requestBody);
 
-        echo JsonSerializer::getInstance()->serialize($user, 'json');
+        echo JsonSerializer::getInstance()->serialize($product, 'json');
     }
 
     /**
      * @Action(method="GET", path="/{id}")
      */
-    public function getUser($id) {
-        $user = $this->userService->getUser($id);
-        echo "kurwa";
+    public function getProduct($id) {
+        $user = $this->productService->productUser($id);
         echo JsonSerializer::getInstance()->serialize($user, 'json');
     }
 
     /**
      * @Action(method="PUT", path="/{id}")
      */
-    public function updateUser($id) {
-        echo sprintf("Updated user with id: %s", array($id));
+    public function updateProduct($id) {
+        echo sprintf("Updated product with id: %s", array($id));
     }
 
     /**
      * @Action(method="DELETE", path="/{id}")
      */
-    public function deleteUser($id) {
-        echo sprintf("Deleted user with id: %s", array($id));
+    public function deleteProduct($id) {
+        echo sprintf("Deleted product with id: %s", array($id));
     }
 }
