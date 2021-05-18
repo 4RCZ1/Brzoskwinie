@@ -42,7 +42,6 @@ class RestRouter {
      * @throws \Exception
      */
     private static function registerRoutes($classname) {
-
         $classReflector = new ReflectionClass($classname);
         $classAnnotations = new Annotations($classReflector);
 
@@ -114,7 +113,7 @@ class RestRouter {
 
     private static function autoloadRoutes() {
         $classes = ClassFinder::getClassesInNamespace(self::MAIN_NAMESPACE, ClassFinder::RECURSIVE_MODE);
-        
+
 
         foreach ($classes as $class) {
             self::registerRoutes($class);

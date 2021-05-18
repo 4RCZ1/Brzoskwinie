@@ -29,7 +29,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $id
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setId($id)
     {
@@ -47,7 +47,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $name
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setName($name)
     {
@@ -65,7 +65,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $lname
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setLname($lname)
     {
@@ -83,7 +83,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $phone
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setPhone($phone)
     {
@@ -101,7 +101,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $email
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setEmail($email)
     {
@@ -119,7 +119,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $password_hash
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setPasswordHash($password_hash)
     {
@@ -137,7 +137,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $stallname
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setStallname($stallname)
     {
@@ -155,7 +155,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $deliveryrange
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setDeliveryrange($deliveryrange)
     {
@@ -173,7 +173,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $id_product
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setIdProduct($id_product)
     {
@@ -191,7 +191,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $id_address
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setIdAddress($id_address)
     {
@@ -209,7 +209,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $id_plot
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setIdPlot($id_plot)
     {
@@ -227,7 +227,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $id_order
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setIdOrder($id_order)
     {
@@ -245,7 +245,7 @@ class UserEntity extends Entity {
 
     /**
      * @param mixed $id_cart
-     * @return UserEntity
+     * @return ProductEntity
      */
     public function setIdCart($id_cart)
     {

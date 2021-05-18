@@ -2,304 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="733d1f7a-7fe9-48a4-8471-b9f8d80ce89e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/App/Router/RestBodyReader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/3B-master.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/dataSources/8a1a10d3-3aeb-45e2-84ce-ef5de4cb88d9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/dataSources/8a1a10d3-3aeb-45e2-84ce-ef5de4cb88d9/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/dataSources/8a1a10d3-3aeb-45e2-84ce-ef5de4cb88d9/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/dataSources/8a1a10d3-3aeb-45e2-84ce-ef5de4cb88d9/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Brzoskwinie/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/.idea/webServers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Application.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Database/DatabaseConnection.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Database/Entity/Entity.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Database/Repository/Repository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Helpers/JwtHelper.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Helpers/ReflectionUtils.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Router/RestBodyReader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Router/RestRouter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/Serializer/JsonSerializer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Controller/AuthController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Controller/UserController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Entity/UserEntity.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Model/Token.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Model/UserRequest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Model/UserResponse.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Repository/UserRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Service/AuthService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/App/User/Service/UserService.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/.php_cs.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/demo-multilang/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/demo-multilang/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/demo/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/demo/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/src/Bramus/Router/Router.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/tests/RouterTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/bramus/router/tests/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/InstalledVersions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/autoload_files.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/installed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/installed.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/composer/platform_check.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/firebase/php-jwt/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/firebase/php-jwt/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/firebase/php-jwt/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/firebase/php-jwt/src/BeforeValidException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/firebase/php-jwt/src/ExpiredException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/firebase/php-jwt/src/JWK.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/firebase/php-jwt/src/JWT.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/firebase/php-jwt/src/SignatureInvalidException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/AppConfig.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/ClassFinder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/Classmap/ClassmapEntry.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/Classmap/ClassmapEntryFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/Classmap/ClassmapFinder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/Exception/ClassFinderException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/Files/FilesEntry.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/Files/FilesEntryFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/Files/FilesFinder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/FinderInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/PSR4/PSR4Finder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/PSR4/PSR4Namespace.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/haydenpierce/class-finder/src/PSR4/PSR4NamespaceFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/inflector/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/inflector/Inflector.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/inflector/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/inflector/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/inflector/Tests/InflectorTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/inflector/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/inflector/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/polyfill-ctype/Ctype.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/polyfill-ctype/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/polyfill-ctype/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/polyfill-ctype/bootstrap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/polyfill-ctype/bootstrap80.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/AccessException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/ExceptionInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/InvalidArgumentException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/InvalidPropertyPathException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/NoSuchIndexException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/NoSuchPropertyException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/OutOfBoundsException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/RuntimeException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Exception/UnexpectedTypeException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyAccess.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyAccessor.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyAccessorBuilder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyAccessorInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyPath.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyPathBuilder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyPathInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyPathIterator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/PropertyPathIteratorInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/StringUtil.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/NonTraversableArrayObject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/TestClass.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/TestClassIsWritable.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/TestClassMagicCall.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/TestClassMagicGet.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/TestClassSetValue.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/Ticket5775Object.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/TraversableArrayObject.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/Fixtures/TypeHinted.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyAccessorArrayAccessTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyAccessorArrayObjectTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyAccessorArrayTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyAccessorBuilderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyAccessorCollectionTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyAccessorNonTraversableArrayObjectTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyAccessorTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyAccessorTraversableArrayObjectTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyPathBuilderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/PropertyPathTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/Tests/StringUtilTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/property-access/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Annotation/Groups.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Annotation/MaxDepth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/DependencyInjection/SerializerPass.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/ChainDecoder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/ChainEncoder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/ContextAwareDecoderInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/ContextAwareEncoderInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/CsvEncoder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/DecoderInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/EncoderInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/JsonDecode.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/JsonEncode.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/JsonEncoder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/NormalizationAwareInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/SerializerAwareEncoder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/XmlEncoder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Encoder/YamlEncoder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/BadMethodCallException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/CircularReferenceException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/ExceptionInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/ExtraAttributesException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/InvalidArgumentException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/LogicException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/MappingException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/RuntimeException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/UnexpectedValueException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Exception/UnsupportedException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/AttributeMetadata.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/AttributeMetadataInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/ClassMetadata.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/ClassMetadataInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Factory/CacheClassMetadataFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Factory/ClassMetadataFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Factory/ClassMetadataFactoryInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Factory/ClassResolverTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Loader/AnnotationLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Loader/FileLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Loader/LoaderChain.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Loader/LoaderInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Loader/XmlFileLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Loader/YamlFileLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Mapping/Loader/schema/dic/serializer-mapping/serializer-mapping-1.0.xsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/NameConverter/CamelCaseToSnakeCaseNameConverter.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/NameConverter/NameConverterInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/AbstractNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/AbstractObjectNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/ArrayDenormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/ContextAwareDenormalizerInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/ContextAwareNormalizerInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/CustomNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/DataUriNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/DateTimeNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/DenormalizableInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/DenormalizerAwareInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/DenormalizerAwareTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/DenormalizerInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/GetSetMethodNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/JsonSerializableNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/NormalizableInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/NormalizerAwareInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/NormalizerAwareTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/NormalizerInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/ObjectNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/PropertyNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Normalizer/SerializerAwareNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Serializer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/SerializerAwareInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/SerializerAwareTrait.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/SerializerInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Annotation/GroupsTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Annotation/MaxDepthTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/DependencyInjection/SerializerPassTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Encoder/ChainDecoderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Encoder/ChainEncoderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Encoder/CsvEncoderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Encoder/JsonDecodeTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Encoder/JsonEncodeTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Encoder/JsonEncoderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Encoder/XmlEncoderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Encoder/YamlEncoderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/AbstractNormalizerDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/CircularReferenceDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/DenormalizableDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/Dummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/GroupDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/GroupDummyInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/GroupDummyParent.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/JsonSerializableDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/MaxDepthDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/NormalizableTraversableDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/PropertyCircularReferenceDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/PropertySiblingHolder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/ProxyDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/ScalarDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/SiblingHolder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/StaticConstructorDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/StaticConstructorNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/ToBeProxyfiedDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/TraversableDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/VariadicConstructorArgsDummy.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/empty-mapping.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/invalid-mapping.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/serialization.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/serialization.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/test.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Fixtures/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Mapping/AttributeMetadataTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Mapping/ClassMetadataTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Mapping/Factory/CacheMetadataFactoryTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Mapping/Factory/ClassMetadataFactoryTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Mapping/Loader/AnnotationLoaderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Mapping/Loader/XmlFileLoaderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Mapping/Loader/YamlFileLoaderTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Mapping/TestClassMetadataFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/NameConverter/CamelCaseToSnakeCaseNameConverterTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/AbstractNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/AbstractObjectNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/ArrayDenormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/CustomNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/DataUriNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/DateTimeNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/GetSetMethodNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/JsonSerializableNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/ObjectNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/PropertyNormalizerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/TestDenormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/Normalizer/TestNormalizer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/Tests/SerializerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/symfony/serializer/phpunit.xml.dist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/zeptech/annotations/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/zeptech/annotations/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/zeptech/annotations/zpt/anno/AnnotationFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/zeptech/annotations/zpt/anno/AnnotationParser.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/zeptech/annotations/zpt/anno/Annotations.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/backend/vendor/zeptech/annotations/zpt/anno/ReflectorNotCommentedException.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/diagrams/conceptual_diagram.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/diagrams/physical_diagram.puml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Brzoskwinie/schemas/initial_schema.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Application.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Database/Repository/Repository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Database/Repository/Repository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Helpers/ReflectionUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Helpers/ReflectionUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Router/RestRouter.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Router/RestRouter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Controller/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Controller/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/User/Entity/UserEntity.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Entity/UserEntity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Model/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Model/UserRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Model/UserResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Model/UserResponse.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/User/Repository/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Repository/UserRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/User/Service/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/User/Service/UserService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,9 +53,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/xampp/htdocs/3b/backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/App/User/Service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -352,6 +65,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Brzoskwinie\backend\App\User\Service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Brzoskwinie\backend\App\Product\Service" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -365,7 +86,7 @@
       <workItem from="1620769008245" duration="340000" />
       <workItem from="1620800168834" duration="3313000" />
       <workItem from="1620984724337" duration="149000" />
-      <workItem from="1621362988268" duration="3728000" />
+      <workItem from="1621362988268" duration="9218000" />
     </task>
     <servers />
   </component>

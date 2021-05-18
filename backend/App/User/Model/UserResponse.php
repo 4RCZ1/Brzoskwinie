@@ -3,7 +3,7 @@
 
 namespace App\User\Model;
 
-use App\User\Entity\UserEntity;
+use App\User\Entity\ProductEntity;
 
 class UserResponse {
 
@@ -30,7 +30,7 @@ class UserResponse {
 
     /**
      * @param mixed $id
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setId($id)
     {
@@ -48,7 +48,7 @@ class UserResponse {
 
     /**
      * @param mixed $name
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setName($name)
     {
@@ -66,7 +66,7 @@ class UserResponse {
 
     /**
      * @param mixed $lname
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setLname($lname)
     {
@@ -84,7 +84,7 @@ class UserResponse {
 
     /**
      * @param mixed $phone
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setPhone($phone)
     {
@@ -102,7 +102,7 @@ class UserResponse {
 
     /**
      * @param mixed $email
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setEmail($email)
     {
@@ -120,7 +120,7 @@ class UserResponse {
 
     /**
      * @param mixed $stallname
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setStallname($stallname)
     {
@@ -138,7 +138,7 @@ class UserResponse {
 
     /**
      * @param mixed $deliveryrange
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setDeliveryrange($deliveryrange)
     {
@@ -156,7 +156,7 @@ class UserResponse {
 
     /**
      * @param mixed $id_product
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setIdProduct($id_product)
     {
@@ -174,7 +174,7 @@ class UserResponse {
 
     /**
      * @param mixed $id_address
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setIdAddress($id_address)
     {
@@ -192,7 +192,7 @@ class UserResponse {
 
     /**
      * @param mixed $id_plot
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setIdPlot($id_plot)
     {
@@ -210,7 +210,7 @@ class UserResponse {
 
     /**
      * @param mixed $id_order
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setIdOrder($id_order)
     {
@@ -228,7 +228,7 @@ class UserResponse {
 
     /**
      * @param mixed $id_cart
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function setIdCart($id_cart)
     {

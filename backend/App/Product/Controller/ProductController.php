@@ -1,22 +1,22 @@
 <?php
 
 
-namespace App\User\Controller;
+namespace App\Product\Controller;
 
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
-use App\User\Model\ProductRequest;
-use App\User\Service\UserService;
+use App\Product\Model\ProductRequest;
+use App\Product\Service\UserService;
 
 /**
  * @Controller(path="/user")
  */
-class UserController {
+class ProductController {
     /**
-     * @var UserService
+     * @var ProductService
      */
 
-    private $userService;
+    private $productService;
 
     /**
      * UserController constructor.

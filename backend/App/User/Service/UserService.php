@@ -4,15 +4,15 @@
 namespace App\User\Service;
 
 
-use App\User\Entity\UserEntity;
-use App\User\Model\UserRequest;
-use App\User\Model\UserResponse;
-use App\User\Repository\UserRepository;
+use App\User\Entity\ProductEntity;
+use App\User\Model\ProductRequest;
+use App\User\Model\ProductResponse;
+use App\User\Repository\ProductRepository;
 
 class UserService {
 
     /**
-     * @var UserRepository
+     * @var ProductRepository
      */
     private $userRepository;
 
@@ -20,17 +20,17 @@ class UserService {
      * UserService constructor.
      */
     public function __construct() {
-        $this->userRepository = new UserRepository();
+        $this->userRepository = new ProductRepository();
     }
 
     /**
-     * @param UserRequest $model
-     * @return UserResponse | bool
+     * @param ProductRequest $model
+     * @return ProductResponse | bool
      * @throws \ReflectionException
      */
-    public function addUser(UserRequest $model) {
+    public function addUser(ProductRequest $model) {
 
-        $userEntity = new UserEntity();
+        $userEntity = new ProductEntity();
 
         $userEntity->setUsername($model->getName())
             ->setPasswordHash(sha1($model->getPasswordHash()));
@@ -40,7 +40,7 @@ class UserService {
 
     /**
      * @param $id
-     * @return UserResponse
+     * @return ProductResponse
      */
     public function getUser($id) {
 
@@ -56,15 +56,15 @@ class UserService {
     }
 
     /**
-     * @param UserEntity $userEntity
-     * @return UserResponse | bool
+     * @param ProductEntity $userEntity
+     * @return ProductResponse | bool
      */
     private function convertUserEntityToUserResponse($userEntity) {
         if (empty($userEntity)) {
             return false;
         }
 
-        $userResponse = new UserResponse();
+        $userResponse = new ProductResponse();
 
         $userResponse
             ->setId($userEntity->getId())
