@@ -3,7 +3,7 @@
 
 use App\Database\Connector;
 use App\Database\Repository\Repository;
-use App\User\Entity\ProductEntity;
+use App\User\Entity\UserEntity;
 use PDO;
 
 class UserRepository extends Repository {

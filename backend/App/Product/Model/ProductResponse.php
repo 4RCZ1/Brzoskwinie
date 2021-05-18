@@ -26,10 +26,12 @@ class ProductResponse {
 
     /**
      * @param mixed $id
+     * @return ProductResponse
      */
     public function setId($id)
     {
         $this->id = $id;
+        return $this;
     }
 
     /**
@@ -42,10 +44,12 @@ class ProductResponse {
 
     /**
      * @param mixed $productname
+     * @return ProductResponse
      */
     public function setProductname($productname)
     {
         $this->productname = $productname;
+        return $this;
     }
 
     /**
@@ -58,10 +62,12 @@ class ProductResponse {
 
     /**
      * @param mixed $description
+     * @return ProductResponse
      */
     public function setDescription($description)
     {
         $this->description = $description;
+        return $this;
     }
 
     /**
@@ -74,10 +80,12 @@ class ProductResponse {
 
     /**
      * @param mixed $price
+     * @return ProductResponse
      */
     public function setPrice($price)
     {
         $this->price = $price;
+        return $this;
     }
 
     /**
@@ -90,10 +98,12 @@ class ProductResponse {
 
     /**
      * @param mixed $harvestdate
+     * @return ProductResponse
      */
     public function setHarvestdate($harvestdate)
     {
         $this->harvestdate = $harvestdate;
+        return $this;
     }
 
     /**
@@ -106,10 +116,12 @@ class ProductResponse {
 
     /**
      * @param mixed $photo
+     * @return ProductResponse
      */
     public function setPhoto($photo)
     {
         $this->photo = $photo;
+        return $this;
     }
 
     /**
@@ -122,10 +134,12 @@ class ProductResponse {
 
     /**
      * @param mixed $id_plot
+     * @return ProductResponse
      */
     public function setIdPlot($id_plot)
     {
         $this->id_plot = $id_plot;
+        return $this;
     }
 
     /**
@@ -138,10 +152,14 @@ class ProductResponse {
 
     /**
      * @param mixed $id_type
+     * @return ProductResponse
      */
     public function setIdType($id_type)
     {
         $this->id_type = $id_type;
+        return $this;
     }
+
+
 
 }

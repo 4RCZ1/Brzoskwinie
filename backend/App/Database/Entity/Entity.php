@@ -6,8 +6,7 @@ namespace App\Database\Entity;
 
 use App\Helpers\ReflectionUtils;
 
-abstract class Entity extends \App\Product\Entity\ProductEntity
+abstract class Entity
 {
-
     public abstract function getId();
 }

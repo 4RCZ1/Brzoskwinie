@@ -51,7 +51,7 @@ class ProductController {
      * @Action(method="GET", path="/{id}")
      */
     public function getProduct($id) {
-        $user = $this->productService->productUser($id);
+        $user = $this->productService->getProduct($id);
         echo JsonSerializer::getInstance()->serialize($user, 'json');
     }
 

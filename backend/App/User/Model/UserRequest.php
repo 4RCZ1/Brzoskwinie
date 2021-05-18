@@ -3,7 +3,7 @@
 
 namespace App\User\Model;
 
-use App\User\Entity\ProductEntity;
+use App\User\Entity\UserEntity;
 
 class UserRequest {
 

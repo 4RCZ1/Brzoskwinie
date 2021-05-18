@@ -5,7 +5,7 @@ namespace App\User\Controller;
 
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
-use App\User\Model\ProductRequest;
+use App\User\Model\UserRequest;
 use App\User\Service\UserService;
 
 /**
@@ -30,7 +30,6 @@ class UserController {
      * @Action(method="GET")
      */
     public function getUsers() {
-        echo "kurwaJebana";
         $serializer = JsonSerializer::getInstance();
         $serializedEntity = $serializer->serialize($this->userService->getUsers(), "json");
         echo $serializedEntity;
@@ -40,8 +39,8 @@ class UserController {
      * @Action(method="POST")
      */
     public function addUser() {
-        /** @var ProductRequest $requestBody */
-        $requestBody = RestBodyReader::readBody(ProductRequest::class);
+        /** @var UserRequest $requestBody */
+        $requestBody = RestBodyReader::readBody(UserRequest::class);
 
         $user = $this->userService->addUser($requestBody);
 
@@ -53,7 +52,6 @@ class UserController {
      */
     public function getUser($id) {
         $user = $this->userService->getUser($id);
-        echo "kurwa";
         echo JsonSerializer::getInstance()->serialize($user, 'json');
     }
 
