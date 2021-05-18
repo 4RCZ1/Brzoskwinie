@@ -13,7 +13,4 @@
       <path value="$PROJECT_DIR$/backend/vendor/bramus/router" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7">
-    <option name="suggestChangeDefaultLanguageLevel" value="false" />
-  </component>
 </project>

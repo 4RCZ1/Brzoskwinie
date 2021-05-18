@@ -22,4 +22,24 @@ class UserRepository extends Repository {
     protected function getTableName() {
         return "profile";
     }
+
+    public function getUsers(){
+        $query = $this->prepare("Select * from " . $this->getTableName());
+
+        $query->execute();
+
+        return $query->fetchAll();
+    }
+
+
+    public function isUserWithPasswordExists($email, $password) {
+        $query = $this->prepare("Select * from " . $this->getTableName() . " where email=:email and password_hash=:password_hash");
+
+        $query->execute(array(
+            ":email" => $email,
+            ":password_hash" => sha1($password)
+        ));
+
+        return $query->rowCount() > 0;
+    }
 }

@@ -9,16 +9,17 @@
     "authors": [
         {
             "name": "igor.maculewicz",
-            "email": "igor.maculewicz@assecods.pl",
-            "name": "marcin.alchimowicz",
-            "email": "marcinowicz1@gmail.com",
-            "name": "marta.dąbrowska",
-            "email": "dabrowskam2003@gmail.com",
-            "name": "mateusz.kupś",
-            "email": "Mateusz@kups-it.com"
+            "email": "igor.maculewicz@assecods.pl"
         }
     ],
     "require": {
-        "ext-pdo": "*"
+        "ext-pdo": "*",
+        "bramus/router": "~1.5",
+        "ext-json": "*",
+        "zeptech/annotations": "^1.1",
+        "haydenpierce/class-finder": "^0.4.3",
+        "symfony/serializer": "v3.3.0",
+        "symfony/property-access": "v3.3.0",
+        "firebase/php-jwt": "^5.2"
     }
 }
