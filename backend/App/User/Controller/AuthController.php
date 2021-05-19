@@ -7,7 +7,7 @@ use App\Helpers\JwtHelper;
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
 use App\User\Model\Token;
-use App\User\Model\UserRequest;
+use App\User\Model\PlotRequest;
 use App\User\Service\AuthService;
 
 /**
@@ -28,8 +28,8 @@ class AuthController {
      * @Action(method="POST", path="/login")
      */
     public function loginAction() {
-        /** @var UserRequest $requestBody */
-        $requestBody = RestBodyReader::readBody(UserRequest::class);
+        /** @var PlotRequest $requestBody */
+        $requestBody = RestBodyReader::readBody(PlotRequest::class);
 
         $tokenObject = $this->authService->login($requestBody->getName(), $requestBody->getPasswordHash());
 

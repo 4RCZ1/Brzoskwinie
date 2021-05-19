@@ -5,8 +5,8 @@ namespace App\User\Service;
 
 
 use App\User\Entity\UserEntity;
-use App\User\Model\UserRequest;
-use App\User\Model\UserResponse;
+use App\User\Model\PlotRequest;
+use App\User\Model\PlotResponse;
 use App\User\Repository\UserRepository;
 
 class UserService {
@@ -24,11 +24,11 @@ class UserService {
     }
 
     /**
-     * @param UserRequest $model
-     * @return UserResponse | bool
+     * @param PlotRequest $model
+     * @return PlotResponse | bool
      * @throws \ReflectionException
      */
-    public function addUser(UserRequest $model) {
+    public function addUser(PlotRequest $model) {
 
         $userEntity = new UserEntity();
 
@@ -40,7 +40,7 @@ class UserService {
 
     /**
      * @param $id
-     * @return UserResponse
+     * @return PlotResponse
      */
     public function getUser($id) {
 
@@ -57,14 +57,14 @@ class UserService {
 
     /**
      * @param UserEntity $userEntity
-     * @return UserResponse | bool
+     * @return PlotResponse | bool
      */
     private function convertUserEntityToUserResponse($userEntity) {
         if (empty($userEntity)) {
             return false;
         }
 
-        $userResponse = new UserResponse();
+        $userResponse = new PlotResponse();
 
         $userResponse
             ->setId($userEntity->getId())

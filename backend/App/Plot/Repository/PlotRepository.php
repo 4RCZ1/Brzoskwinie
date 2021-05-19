@@ -1,29 +1,29 @@
-<?php namespace App\Product\Repository;
+<?php namespace App\Plot\Repository;
 
 
 use App\Database\Connector;
 use App\Database\Repository\Repository;
-use App\Product\Entity\ProductEntity;
+use App\Plot\Entity\PlotEntity;
 use PDO;
 
-class ProductRepository extends Repository {
+class PlotRepository extends Repository {
 
     /**
-     * UserRepository constructor.
+     * PlotRepository constructor.
      */
     public function __construct() {
         parent::__construct();
     }
 
     public function getEntityName() {
-        return "App\Product\Entity\ProductEntity";
+        return "App\Plot\Entity\PlotEntity";
     }
 
     protected function getTableName() {
-        return "product";
+        return "plot";
     }
 
-    public function getProducts(){
+    public function getPlots(){
         $query = $this->prepare("Select * from " . $this->getTableName());
 
         $query->execute();

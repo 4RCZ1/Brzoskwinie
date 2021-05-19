@@ -5,7 +5,7 @@ namespace App\User\Controller;
 
 use App\Router\RestBodyReader;
 use App\Serializer\JsonSerializer;
-use App\User\Model\UserRequest;
+use App\User\Model\PlotRequest;
 use App\User\Service\UserService;
 
 /**
@@ -39,8 +39,8 @@ class UserController {
      * @Action(method="POST")
      */
     public function addUser() {
-        /** @var UserRequest $requestBody */
-        $requestBody = RestBodyReader::readBody(UserRequest::class);
+        /** @var PlotRequest $requestBody */
+        $requestBody = RestBodyReader::readBody(PlotRequest::class);
 
         $user = $this->userService->addUser($requestBody);
 
